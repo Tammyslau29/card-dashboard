@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchUserInformation } from "../api/user.ts"
+import styles from "../styles/User.module.scss";
 
 export default function User(props) {
     const [name, setName] = useState("")
@@ -15,7 +16,7 @@ export default function User(props) {
         setEmail(user.email)
     }
     return (
-        <div>
+        <div className={styles.userContainer}>
             <p>Hello, {name}</p>
             <p>{email}</p>
         </div>
