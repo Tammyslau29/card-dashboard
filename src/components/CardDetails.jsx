@@ -6,16 +6,16 @@ export default function CardDetails (props) {
 
     return (
         <div>
-            <p>
-                <span>Card Number:</span>
+            <p className={styles.cardText}>
+                <b>Card Number:</b>
                 <span>{cardNumber}</span>
             </p>
-            <p>
-                <span>Last Four:</span>
+            <p className={styles.cardText}>
+                <b>Last Four:</b>
                 <span>{lastFour}</span>
             </p>
-            <p>
-                <span>Spending Limit:</span>
+            <p className={styles.cardText}>
+                <b>Spending Limit:</b>
                 <span>{spendingLimit}</span>
             </p>
         </div>

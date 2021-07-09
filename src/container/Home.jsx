@@ -12,6 +12,7 @@ export default function Home(props) {
         <div className={styles.container}>
             <User/>
             <Card/>
+            <hr />
             <Transactions/>
         </div>
     )

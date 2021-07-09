@@ -38,11 +38,11 @@ export default function Card(props) {
 
     return (
         <div className={styles.cardContainer}>
-            <div>
+            <div className={styles.cardWrapper}>
                 <h1>Card Information</h1>
                 <CardDetails cardNumber={cardNumber} lastFour={lastFour} spendingLimit={spendingLimit}/>
             </div>
-            <div>
+            <div className={styles.cardWrapper}>
                 <h1>Card Metrics</h1>
                 <CardMetrics totalSpend={totalSpend} averageSpend={averageSpend}/>
             </div>

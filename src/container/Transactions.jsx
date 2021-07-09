@@ -18,6 +18,7 @@ export default function Transactions(props) {
 
     return (
         <div>
+            <h1>Transactions</h1>
             <DataTable data={transactions}/>
         </div>
     )

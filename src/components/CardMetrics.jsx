@@ -6,12 +6,12 @@ export default function CardDetails (props) {
 
     return (
         <div>
-            <p>
-                <span>Total Spend:</span>
+            <p className={styles.cardText}>
+                <b>Total Spend:</b>
                 <span>{totalSpend}</span>
             </p>
-            <p>
-                <span>Average Spend:</span>
+            <p className={styles.cardText}>
+                <b>Average Spend:</b>
                 <span>{averageSpend}</span>
             </p>
         </div>
