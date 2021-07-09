@@ -6,7 +6,31 @@
     align-items:flex-start;
 
     h1{
-        color: purple;
         font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        margin: 5px 0;
+        font-size: 40px;
+        background: -webkit-linear-gradient( rgba(210,174,238,1), #4d96ec);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .cardText{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+
+        span{
+            padding-left: 5px;
+        }
+
+    }
+
+    .cardWrapper{
+        width: 50%;
+        height: 150px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
     }
 }

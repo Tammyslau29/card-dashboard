@@ -17,8 +17,7 @@ export default function User(props) {
     }
     return (
         <div className={styles.userContainer}>
-            <p>Hello, {name}</p>
-            <p>{email}</p>
+            <p>Welcome, {name}</p>
         </div>
     )
 }
